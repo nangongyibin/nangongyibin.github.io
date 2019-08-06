@@ -104,6 +104,10 @@ navs:
         subHref: /Activity.html
         subLabel: Activity
 
+       -
+        subHref: /other.html
+        subLabel: Other
+
 
 
   -
