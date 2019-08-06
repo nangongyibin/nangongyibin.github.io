@@ -94,6 +94,15 @@ navs:
     href: /
     label: Home
 
+  - href: /Activity.html
+    label: Android
+    target: _self
+    subnav:
+
+       -
+        subHref: /Activity.html
+        subLabel: Activity
+
   -
     href: /spring-boot.html
     label: Spring Boot
