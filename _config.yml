@@ -107,17 +107,17 @@ navs:
 
 
   -
-    href: /spring-boot.html
+    href: /Redis.html
     label: Java
     target: _self
     subnav:
 
       -
-        subHref: /spring-boot.html
+        subHref: /Redis.html
         subLabel: Redis
 
       -
-        subHref: /spring-cloud.html
+        subHref: /mongodb.html
         subLabel: Mongodb
 
 
