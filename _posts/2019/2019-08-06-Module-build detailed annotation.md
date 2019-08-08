@@ -76,7 +76,7 @@ proguardFiles用于指定混小时使用的规则文件。proguard-android-optim
 
 implementation fileTree本地依赖声明，表示将lib下的.jar文件添加到项目的构建路径当中
 
-implementation运城依赖库格式
+implementation远程依赖库格式
 
 testImplementation用于声明测试用例库
 

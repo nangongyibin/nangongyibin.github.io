@@ -17,8 +17,8 @@ favicon: favicon.ico
 
 repository: nangongyibin7219/nangongyibin7219.github.io
 github_url: https://github.com/nangongyibin7219
-url: http://nangongyibin7219.github.io
-enforce_ssl: ityouknow.com
+url: http://www.nangongyibin.com
+enforce_ssl: nangongyibin.com
 
 ## Gem
 plugins:
@@ -105,6 +105,20 @@ navs:
         subLabel: Activity
 
        -
+        subHref: /Activity.html
+        subLabel: Kotlin
+
+       -
+        subHref: /Activity.html
+        subLabel: Flutter
+
+ 
+       -
+        subHref: /Activity.html
+        subLabel: 第三方服务
+
+      
+       -
         subHref: /other.html
         subLabel: Other
 
@@ -123,6 +137,17 @@ navs:
       -
         subHref: /mongodb.html
         subLabel: Mongodb
+
+  -
+    href: /archives.html
+    label: C/C++
+    target: _self
+
+
+  -
+    href: /archives.html
+    label: Linux
+    target: _self
 
 
   -
