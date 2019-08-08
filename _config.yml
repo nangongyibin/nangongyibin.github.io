@@ -105,16 +105,16 @@ navs:
         subLabel: Activity
 
        -
-        subHref: /Activity.html
+        subHref: /Kotlin.html
         subLabel: Kotlin
 
        -
-        subHref: /Activity.html
+        subHref: /Flutter.html
         subLabel: Flutter
 
  
        -
-        subHref: /Activity.html
+        subHref: /ThirdPartyService.html
         subLabel: 第三方服务
 
       
@@ -135,17 +135,17 @@ navs:
         subLabel: Redis
 
       -
-        subHref: /mongodb.html
+        subHref: /Mongodb.html
         subLabel: Mongodb
 
   -
-    href: /archives.html
+    href: /C.html
     label: C/C++
     target: _self
 
 
   -
-    href: /archives.html
+    href: /Linux.html
     label: Linux
     target: _self
 
@@ -165,26 +165,6 @@ navs:
 labels:
 
   -
-    href: /payment.html
-    label: 支付     
-    target: _self
-
-  -
-    href: /fastdfs.html
-    label: FastDFS
-    target: _blank
-
-  -
-    href: /mongodb.html
-    label: MongoDB
-    target: _blank
-
-  -
-    href: /docker.html
-    label: Docker
-    target: _blank
-
-  -
     href: /open-source.html
     label: Code  
     target: _blank
@@ -194,10 +174,6 @@ labels:
     label: IT 
     target: _blank
 
-  -
-    href: /python.html
-    label: Python  
-    target: _blank
 
 
 # selected articles
@@ -250,17 +226,17 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: ityouknow
+    username: nangongyibin
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: ityouknow
+    owner: nangongyibin
     repo: blog-comments
     oauth:
         client_id: 61bfc53d957e74e78f8f
         client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: ityouknow
+    owner: nangongyibin
     repo: blog-comments
     clientID: 61bfc53d957e74e78f8f
     clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c

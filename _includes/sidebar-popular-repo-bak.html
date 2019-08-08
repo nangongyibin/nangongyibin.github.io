@@ -23,7 +23,8 @@
                 </span>
                 <span data-toggle="tooltip" class="meta-info" title="Last updated：{{ repo.updated_at }}">
                     <span class="octicon octicon-clock"></span>
-                    <time datetime="{{ repo.updated_at }}" title="{{ repo.updated_at }}">{{ repo.updated_at | date: '%Y-%m-%d' }}</time>
+                    <time datetime="{{ repo.updated_at }}"
+                        title="{{ repo.updated_at }}">{{ repo.updated_at | date: '%Y-%m-%d' }}</time>
                 </span>
             </div>
         </div>
@@ -31,14 +32,14 @@
 </div>
 {% endfor %}
 <script>
-    $(document).ready(function(){
-
+    $(document).ready(function () {
         // Enable bootstrap tooltip
-        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
-
-        $('.geopattern').each(function(){
-            $(this).geopattern($(this).data('pattern-id'));
+        $("body").tooltip({
+            selector: '[data-toggle=tooltip]'
         });
 
+        $('.geopattern').each(function () {
+            $(this).geopattern($(this).data('pattern-id'));
+        });
     });
 </script>

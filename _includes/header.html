@@ -4,9 +4,7 @@
             <div class="topbar-menu">
                 {% for menu in site.menus %}
                 <div class="item">
-                    <a href="{{ menu.href }}"
-                       target="{{ menu.target | default: _self }}"
-                       title="{{ menu.label }}">
+                    <a href="{{ menu.href }}" target="{{ menu.target | default: _self }}" title="{{ menu.label }}">
                         {{ menu.label }}
                     </a>
                 </div>
@@ -21,18 +19,16 @@
         </a>
         <nav class="site-header-nav" role="navigation">
             {% for nav in site.navs %}
-            <div class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item hvr-underline-from-center">
-                <a href="{{ nav.href }}"
-                   target="{{ nav.target | default: _self }}"
-                   title="{{ nav.label }}">
+            <div
+                class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item hvr-underline-from-center">
+                <a href="{{ nav.href }}" target="{{ nav.target | default: _self }}" title="{{ nav.label }}">
                     {{ nav.label }}
                 </a>
                 {% if nav.subnav %}
                 <ul class="submenu">
                     {% for subItem in nav.subnav %}
-                    <li><a href="{{ subItem.subHref }}" 
-                           target="{{ subItem.target | default: _self }}"
-                     >{{ subItem.subLabel }}</a></li>
+                    <li><a href="{{ subItem.subHref }}"
+                            target="{{ subItem.target | default: _self }}">{{ subItem.subLabel }}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}

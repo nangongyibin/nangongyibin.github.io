@@ -7,11 +7,8 @@ menu: gitchat
 css: ['blog-page.css']
 permalink: /gitchat
 ---
-
 <div class="row">
-
     <div class="col-md-12">
-
         <ul id="posts-list">
             {% for post in site.posts %}
                 {% if post.category=='gitchat' %}
@@ -25,22 +22,17 @@ permalink: /gitchat
                 {% endif %}
             {% endfor %}
         </ul> 
-
         <!-- Pagination -->
         {% include pagination.html %}
-
         <!-- Comments -->
        <div class="comment">
          {% include comments.html %}
        </div>
     </div>
-
 </div>
 <script>
     $(document).ready(function(){
-
         // Enable bootstrap tooltip
         $("body").tooltip({ selector: '[data-toggle=tooltip]' });
-
     });
 </script>
