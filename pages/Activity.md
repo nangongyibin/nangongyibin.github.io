@@ -5,7 +5,7 @@ titlebar: activity
 subtitle: 
 menu: activity
 css: ['blog-page.css']
-permalink: /activity
+permalink: /Activity
 keywords: android,activity
 ---
 {% include Activity.html %}
