@@ -105,6 +105,10 @@ navs:
         subLabel: Activity
 
        -
+        subHref: /Layout.html
+        subLabel: 控件
+
+       -
         subHref: /Kotlin.html
         subLabel: Kotlin
 
