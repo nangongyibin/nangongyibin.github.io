@@ -24,7 +24,7 @@ excerpt: VMware Workstation 14
 
 ![](http://www.nangongyibin.com/assets/images/vm3.png)
 
-## 5、默认安装路径，您可以自行选择，下面那个增强型键盘驱动程序，只能在Windows系统使用，您根据自己需要选择
+## 5、默认安装路径，您可以自行选择，下面那个增强型键盘驱动程序，只能在Windows系统使用，您根据自己需要选择 ##
 
 ![](http://www.nangongyibin.com/assets/images/vm4.png)
 
