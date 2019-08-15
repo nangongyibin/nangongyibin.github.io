@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Mongodb基本操作
+title: Mongodb操作的问题
 category: Linux
 tags: [Linux]
-excerpt: Mongodb基本操作
+excerpt: Mongodb操作的问题
 ---
 
 ## 问题一 ##
