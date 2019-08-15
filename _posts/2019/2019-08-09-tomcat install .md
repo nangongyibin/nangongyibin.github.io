@@ -60,7 +60,7 @@ excerpt: Tomcat的安装
 
 ### 9、设置tomcat服务随系统启动而自启动（设置成系统自启动服务） ###
 
-直接在/etc/rc.local文件最后添加语句/usr/local/tomcat7/bin/startup.sh，重启系统，运行ps -ef|grep java,出现如下信息，则说明tomcat服务自启动了！
+    直接在/etc/rc.local文件最后添加语句/usr/local/tomcat7/bin/startup.sh，重启系统，运行ps -ef|grep java,出现如下信息，则说明tomcat服务自启动了！
 
 ![](https://img-blog.csdn.net/20180828191206240?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Rkc2hlbmcxMTI4/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
