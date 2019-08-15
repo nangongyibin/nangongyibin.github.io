@@ -1,9 +1,9 @@
 ---
 layout: post
-title: VMware虚拟机安装windows server 2008图文步骤
+title: VMware虚拟机安装centos6图文步骤
 category: Linux
 tags: [Linux]
-excerpt: VMware虚拟机安装windows server 2008图文步骤
+excerpt: VMware虚拟机安装centos6图文步骤
 ---
 
 ## 1、在vmware上开始安装CentOS系统，点击菜单新建虚拟机， ##
@@ -35,30 +35,30 @@ excerpt: VMware虚拟机安装windows server 2008图文步骤
 
 ![](http://www.nangongyibin.com/assets/images/centos8.jpg)
 
-## 6、这里可以修改内存、硬盘和处理器的大小，可以根据需要修改。 ##
+## 7、这里可以修改内存、硬盘和处理器的大小，可以根据需要修改。 ##
 
 ![](http://www.nangongyibin.com/assets/images/centos6.png)
 
-## 7、点击CD/DVD这一项，出现左侧对话框，浏览选择系统CentOS系统镜像，确定。在选择镜像之前不要开启虚拟机，会提示找不到操作系统，否则，即使后面选择了系统镜像，也可能提示找不到操作系统。点击确定，开启虚拟机。  ##
+## 8、点击CD/DVD这一项，出现左侧对话框，浏览选择系统CentOS系统镜像，确定。在选择镜像之前不要开启虚拟机，会提示找不到操作系统，否则，即使后面选择了系统镜像，也可能提示找不到操作系统。点击确定，开启虚拟机。  ##
 
 ![](http://www.nangongyibin.com/assets/images/centos7.png)
 
-## 8、点击开启此虚拟机 ##
+## 9、点击开启此虚拟机 ##
 
 
 ![](http://www.nangongyibin.com/assets/images/centos9.png)
 
-## 9、选择第一项，回车。  ##
+## 10、选择第一项，回车。  ##
 
 ![](http://www.nangongyibin.com/assets/images/centos10.png)
 
-## 10、这一步是检测媒体安装，键盘选择skip，直接跳过。 ##
+## 11、这一步是检测媒体安装，键盘选择skip，直接跳过。 ##
 
 ![](http://www.nangongyibin.com/assets/images/centos11.png)
 
-## 11、只有OK这一个选择，直接回车。 ##
+## 12、只有OK这一个选择，直接回车。 ##
 
-![](http://www.nangongyibin.com/assets/images/centos11.png)
+![](http://www.nangongyibin.com/assets/images/centos22.png)
 
 ## 12、点击next，进入下一步 ##
 
