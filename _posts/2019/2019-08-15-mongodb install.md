@@ -61,3 +61,17 @@ excerpt: Mongodb的安装
 ## 7、开机自动启动mongodb ##
 
 	编辑/etc/rc.d/rc.local,在文件后面加上如下这行：/usr/local/mongodb/bin/mongod --config /usr/local/mongodb/bin/mongodb.conf
+
+
+## 8、配置防火墙 ##
+
+	①、打开iptables的配置文件：
+	vi /etc/sysconfig/iptables
+	②、添加使防火墙开放27017端口
+	-A INPUT -p tcp -m state --state NEW -m tcp --dport 27017 -j ACCEPT
+	③、保存，重启防火墙
+	service iptables restart
+	④、查看规则
+	iptables --list-rules 
+
+

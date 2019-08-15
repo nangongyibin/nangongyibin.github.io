@@ -54,3 +54,33 @@ excerpt: Redis的安装
 	ps -aux | grep redis
 	#使用kill命令杀死进程
 	kill -9 pid
+
+## 6、redis开机自启 ##
+
+	①、在/etc目录下新建redis目录：
+	mkdir redis
+	
+	②、将/usr/local/redis-5.0.5/redis.conf 文件复制一份到/etc/redis目录下，并命名为6379.conf
+	cp /usr/local/redis-5.0.5/redis.conf /etc/redis/6379.conf
+	③、将redis的启动脚本复制一份放到/etc/init.d目录下
+	cp /usr/local/redis-5.0.5/utils/redis_init_script /etc/init.d/redisd
+	④、先切换到/etc/init.d目录下 ,然后执行自启命令
+	cd /etc/init.d
+	chkconfig redisd on
+	⑤、现在可以直接已服务的形式启动和关闭redis了
+	启动：
+	service redisd start
+	关闭：
+	service redisd stop
+## 7、防火墙配置 ##
+
+	①、打开iptables的配置文件：
+	vi /etc/sysconfig/iptables
+	②、添加使防火墙开放6379端口
+	-A INPUT -p tcp -m state --state NEW -m tcp --dport 6379 -j ACCEPT
+	③、保存，重启防火墙
+	service iptables restart
+	④、查看规则
+	iptables --list-rules
+
+
