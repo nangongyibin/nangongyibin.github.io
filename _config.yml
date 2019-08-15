@@ -153,6 +153,15 @@ navs:
     label: Linux
     target: _self
 
+  -
+    href: /git.html
+    label: 软件
+    target: _self
+    subnav:
+
+      -
+        subHref: /git.html
+        subLabel: Git
 
   -
     href: /archives.html
