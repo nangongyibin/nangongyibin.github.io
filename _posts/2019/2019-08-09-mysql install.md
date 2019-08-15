@@ -96,3 +96,15 @@ excerpt: mysql的安装
 	chkconfig --list
 	5、重启服务器
 	reboot
+
+### 15、配置防火墙 ###
+
+	①、打开iptables的配置文件：
+	vi /etc/sysconfig/iptables
+	②、添加使防火墙开放3306端口
+	-A INPUT -p tcp -m state --state NEW -m tcp --dport 3306 -j ACCEPT
+	③、保存，重启防火墙
+	service iptables restart
+	④、查看规则
+	iptables --list-rules
+

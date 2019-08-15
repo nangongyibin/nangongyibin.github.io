@@ -23,3 +23,21 @@ excerpt: nginx的安装
 参考网站：
 
 https://www.cnblogs.com/taui/p/6197045.html
+
+### 问题二###
+
+启动nginx服务： 
+
+    service nginx start
+
+
+问题描述：
+
+	/bin/sh^M: bad interpreter: No such file or directory
+
+原因：拷贝文件从window到linux，编码格式不一样导致的
+
+解决方法：
+
+	使用vi修改文件format
+	命令：set ff=unix

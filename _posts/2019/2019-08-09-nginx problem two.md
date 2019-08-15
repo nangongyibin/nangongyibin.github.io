@@ -5,7 +5,7 @@ category: Linux
 tags: [Linux]
 excerpt: nginx的安装
 ---
-### 问题二 ###
+### 问题一 ###
 
 执行命令： 
 

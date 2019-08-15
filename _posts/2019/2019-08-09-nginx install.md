@@ -181,3 +181,16 @@ NGINX_CONF_FILE=”/etc/nginx/nginx.conf” 修改成配置文件的路径。
 ### 10、验证是否成功 ###
 
     shutdown -r now
+
+### 11、配置防火墙 ###
+
+	①、打开iptables的配置文件：
+	vi /etc/sysconfig/iptables
+	②、添加使防火墙开放80端口
+	-A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
+	③、保存，重启防火墙
+	service iptables restart
+	④、查看规则
+	iptables --list-rules
+
+
