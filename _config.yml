@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+     # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -121,6 +121,9 @@ navs:
         subHref: /ThirdPartyService.html
         subLabel: 第三方服务
 
+       -
+        subHref: /encryption.html
+        subLabel: 加密
       
        -
         subHref: /other.html
