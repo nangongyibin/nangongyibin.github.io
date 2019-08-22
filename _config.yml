@@ -245,14 +245,14 @@ disqus:
     username: ityouknow
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: nangongyibin
+    owner: nangongyibin7219
     repo: blog-comments
     oauth:
         client_id: b16fe83190c665c4af34
         client_secret: 58ba170c05de517687dc937948dbca53021f343e
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: nangongyibin
+    owner: nangongyibin7219
     repo: blog-comments
     clientID: b16fe83190c665c4af34
     clientSecret: 58ba170c05de517687dc937948dbca53021f343e
