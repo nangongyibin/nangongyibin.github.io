@@ -136,6 +136,10 @@ navs:
     label: Java
     target: _self
     subnav:
+    
+      -
+        subHref: /JavaSyntax.html
+        subLabel: Java语法
 
       -
         subHref: /Redis.html
