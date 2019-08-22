@@ -22,7 +22,7 @@ excerpt: nginx的安装
 
 参考网站：
 
-https://www.cnblogs.com/taui/p/6197045.html
+<https://www.cnblogs.com/taui/p/6197045.html>
 
 ### 问题二###
 

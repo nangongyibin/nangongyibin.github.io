@@ -5,8 +5,9 @@ category: Linux
 tags: [Linux]
 excerpt: Tomcat的安装
 ---
-### 1、下载tomcat(http://tomcat.apache.org/)  ###
+### 1、下载tomcat  ###
 
+<http://tomcat.apache.org/>
 
 ### 2、将apache-tomcat-8.0.50.tar.gz解压 ###
 

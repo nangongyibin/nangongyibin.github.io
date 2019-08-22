@@ -8,8 +8,7 @@ excerpt: VMware Workstation 14
 
 ## 1、下载 ##
 
-
-[https://pan.baidu.com/s/1pbDXpgpNQTdTRzzKNWfE1A](https://pan.baidu.com/s/1pbDXpgpNQTdTRzzKNWfE1A "网盘下载")
+<https://pan.baidu.com/s/1pbDXpgpNQTdTRzzKNWfE1A>
 
 ## 2、首先呢下载解压缩软件包，双击运行“VMware-workstation-full-14.0.0-6661328.exe”进行程序安装 ##
 

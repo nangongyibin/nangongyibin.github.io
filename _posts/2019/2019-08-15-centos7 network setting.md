@@ -36,4 +36,6 @@ excerpt: centos7网络设置
 		ping www.baidu.com
 
 
-参考网站：https://blog.csdn.net/u014711094/article/details/79832259
+参考网站：
+
+<https://blog.csdn.net/u014711094/article/details/79832259>

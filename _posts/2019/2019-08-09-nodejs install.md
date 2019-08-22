@@ -8,7 +8,7 @@ excerpt: nodejs的安装
 
 ### 1、安装文件下载 ###
 
-    [http://nodejs.cn/download/](http://nodejs.cn/download/ "下载地址")
+<http://nodejs.cn/download/>
 
 ### 2、将安装包上传到指定位置(我习惯放到：/usr/local/software/目录)，并解压 ###
 
@@ -29,4 +29,6 @@ excerpt: nodejs的安装
 	v10.6.0
 
 
-参考网站：https://www.cnblogs.com/mao2080/p/9346018.html
+参考网站：
+
+<https://www.cnblogs.com/mao2080/p/9346018.html>

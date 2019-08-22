@@ -33,7 +33,7 @@ excerpt: java的安装
 
 ### 5、安装文件下载 ###
 
-    [https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html "下载地址")
+<https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html>
 
 ### 6、将安装包上传到指定位置(我习惯放到：/usr/local/software/目录)，并解压 ###
 

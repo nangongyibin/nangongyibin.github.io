@@ -30,4 +30,4 @@ excerpt: nginx的安装
 
 参考网站：
 
-https://www.jianshu.com/p/9227f0d3d005
+<https://www.jianshu.com/p/9227f0d3d005>

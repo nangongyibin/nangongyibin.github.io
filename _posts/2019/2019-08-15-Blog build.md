@@ -22,7 +22,9 @@ Linux服务器 博客基本环境（编译博客的环境）+nginx+自动化部�
 
 	ruby -v 
 
-下载地址：http://rubyinstaller.org/downloads/
+下载地址：
+
+<http://rubyinstaller.org/downloads/>
 
 ## 2、安装Ruby DevKit ##
 
