@@ -10,14 +10,14 @@ excerpt: Android开发环境的搭建
 
 ## 2、androidstudio + sdk ##
 
-![](http://www.nangongyibin/assets/images/ae1.png)
+![](http://www.nangongyibin.com/assets/images/ae1.png)
 
 ### 2.1 sdk的目录 ###
 
 #### 2.1.1 doc目录--->android开发文档目录
 
 
-![](http://www.nangongyibin/assets/images/ae2.png)
+![](http://www.nangongyibin.com/assets/images/ae2.png)
 
 ##### 2.1.2 extras额外的jar包。v4包、v7包... ####
 
@@ -38,12 +38,12 @@ excerpt: Android开发环境的搭建
 
 ##### 2.1.4 platforms-tools 平台提供的工具 adb(android debug bridge)android调试桥,使用adb指令也需要配置一下环境变量 path:G:\Users\sdk\platform-tools  ####
 
-![](http://www.nangongyibin/assets/images/ae3.png)
+![](http://www.nangongyibin.com/assets/images/ae3.png)
 
 
 当配置好后 敲adb指令 如下图说明配置好了
 
-![](http://www.nangongyibin/assets/images/ae4.png)
+![](http://www.nangongyibin.com/assets/images/ae4.png)
 
 ##### 2.1.5 source :谷歌提供源码 ####
 
@@ -51,7 +51,7 @@ excerpt: Android开发环境的搭建
 
 intel:生成cpu主要针对pc端,这个公司针对移动端生成了一个模拟器加速器, bios
 
-![](http://www.nangongyibin/assets/images/ae5.png)
+![](http://www.nangongyibin.com/assets/images/ae5.png)
 
 如果你电脑cpu是intel处理器 >=i3，在开启模拟器速度会快很多。
 
@@ -59,4 +59,4 @@ arm：生成处理器，针对移动端，不生成硬件，做标准。
 
 ## 2.2、创建模拟器 ##
 
-![](http://www.nangongyibin/assets/images/ae6.png)
+![](http://www.nangongyibin.com/assets/images/ae6.png)
