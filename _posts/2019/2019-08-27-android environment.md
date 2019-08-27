@@ -1,0 +1,62 @@
+---
+layout: post
+title: Android开发环境的搭建
+category: Other
+tags: [Other]
+excerpt: Android开发环境的搭建
+---
+
+## 1、eclipse + adt(插件) + sdk(谷歌研发的开发工具包)  ##
+
+## 2、androidstudio + sdk ##
+
+![](http://www.nangongyibin/assets/images/ae1.png)
+
+### 2.1 sdk的目录 ###
+
+#### 2.1.1 doc目录--->android开发文档目录
+
+
+![](http://www.nangongyibin/assets/images/ae2.png)
+
+##### 2.1.2 extras额外的jar包。v4包、v7包... ####
+
+
+##### 2.1.3 platforms ####
+
+
+常见api level 对应的android版本 
+
+
+10—–>2.3 
+
+11—–>3.0 
+
+16——>4.1 
+
+23——>6.0 
+
+##### 2.1.4 platforms-tools 平台提供的工具 adb(android debug bridge)android调试桥,使用adb指令也需要配置一下环境变量 path:G:\Users\sdk\platform-tools  ####
+
+![](http://www.nangongyibin/assets/images/ae3.png)
+
+
+当配置好后 敲adb指令 如下图说明配置好了
+
+![](http://www.nangongyibin/assets/images/ae4.png)
+
+##### 2.1.5 source :谷歌提供源码 ####
+
+##### 2.1.6 system-image 系统镜像 ####
+
+intel:生成cpu主要针对pc端,这个公司针对移动端生成了一个模拟器加速器, bios
+
+![](http://www.nangongyibin/assets/images/ae5.png)
+
+如果你电脑cpu是intel处理器 >=i3，在开启模拟器速度会快很多。
+
+arm：生成处理器，针对移动端，不生成硬件，做标准。
+
+## 2.2、创建模拟器 ##
+
+![](http://www.nangongyibin/assets/images/ae6.png)
