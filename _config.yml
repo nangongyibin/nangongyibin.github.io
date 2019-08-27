@@ -140,6 +140,10 @@ navs:
       -
         subHref: /JavaSyntax.html
         subLabel: Java语法
+        
+      -
+        subHref: /MySql.html
+        subLabel: MySQL
 
       -
         subHref: /Redis.html
@@ -231,10 +235,10 @@ side_bar_repo_limit: 6 # Number of repos to show
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, MySQL, Oracle, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, PHP,  Boostrap]
-skill_mobile_app_keywords: [vuejs, hyhird app]
+skill_software_keywords: [Java, MySQL]
+skill_j2ee_keywords: [JSP]
+skill_web_keywords: [HTML]
+skill_mobile_app_keywords: [hyhird app]
 
 
 # ---------------- #
