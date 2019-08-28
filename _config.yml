@@ -129,6 +129,10 @@ navs:
         subHref: /other.html
         subLabel: Other
 
+       -
+        subHref: /exception.html
+        subLabel: 异常
+
 
 
   -
@@ -152,6 +156,18 @@ navs:
       -
         subHref: /Mongodb.html
         subLabel: Mongodb
+        
+        
+
+  -
+    href: /html.html
+    label: Web
+    target: _self
+    subnav:
+    
+      -
+        subHref: /html.html
+        subLabel: HTML
 
   -
     href: /C.html
