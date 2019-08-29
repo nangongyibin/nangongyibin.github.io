@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Link
-titlebar: Link
-subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; Resource link
-menu: Link
+title: 资源链接
+titlebar: 资源链接
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; 资源链接
+menu: 资源链接
 permalink: /link
 ---
 ## 友情链接

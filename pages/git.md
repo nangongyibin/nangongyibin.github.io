@@ -1,11 +1,11 @@
 ---
 layout: page
-title: git
-titlebar: git
+title: Git
+titlebar: Git
 subtitle: 
 menu: git
 css: ['blog-page.css']
 permalink: /git
-keywords: git
+keywords: Git
 ---
 {% include git.html %}

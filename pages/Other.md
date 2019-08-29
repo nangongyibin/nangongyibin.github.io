@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Other
-titlebar: other
+title: 其他
+titlebar: 其他
 subtitle: 
-menu: other
+menu: 其他
 css: ['blog-page.css']
 permalink: /other
 keywords: android
 ---
-{% include Other.html %}
+{% include other.html %}

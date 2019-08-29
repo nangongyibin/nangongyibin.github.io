@@ -1,11 +1,11 @@
 ---
 layout: page
-title: C
-titlebar: C
+title: C/C++
+titlebar: C/C++
 subtitle: 
-menu: C
+menu: C/C++
 css: ['blog-page.css']
-permalink: /C
+permalink: /c
 keywords: C/C++
 ---
-{% include C.html %}
+{% include c.html %}

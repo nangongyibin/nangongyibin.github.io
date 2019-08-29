@@ -21,7 +21,7 @@ css: ['index.css', 'sidebar-popular-repo.css']
         <div class="col-md-8">
             <ol class="post-list">
                 {% for post in paginator.posts %}
-                 {% if post.category == 'Activity' or post.category == 'Other' or post.category == 'Layout' or post.category=='encryption' or post.category=='Flutter' or post.category=='Kotlin' or post.category=='ThirdPartyService' or post.category=='exception'%}
+                 {% if post.category == 'Activity' or post.category == 'Other' or post.category == 'Layout' or post.category=='Encryption' or post.category=='Flutter' or post.category=='Kotlin' or post.category=='ThirdPartyService' or post.category=='Exception' or post.category=='DataBase'%}
                     <li class="post-list-item">
                         <h2 class="post-list-title">
                             <a class="hvr-underline-from-center" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>

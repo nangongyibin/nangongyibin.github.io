@@ -5,7 +5,7 @@ titlebar: MySQL
 subtitle: 
 menu: MySQL
 css: ['blog-page.css']
-permalink: /MySql
-keywords: android,activity
+permalink: /mysql
+keywords: MySQL
 ---
-{% include MySql.html %}
+{% include mysql.html %}

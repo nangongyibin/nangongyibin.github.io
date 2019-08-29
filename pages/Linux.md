@@ -5,7 +5,7 @@ titlebar: Linux
 subtitle: 
 menu: Linux
 css: ['blog-page.css']
-permalink: /Linux
+permalink: /linux
 keywords: Linux
 ---
-{% include Linux.html %}
+{% include linux.html %}

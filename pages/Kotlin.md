@@ -5,7 +5,7 @@ titlebar: Kotlin
 subtitle: 
 menu: Kotlin
 css: ['blog-page.css']
-permalink: /Kotlin
+permalink: /kotlin
 keywords: android,Kotlin
 ---
-{% include Kotlin.html %}
+{% include kotlin.html %}

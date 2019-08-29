@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Activity
-titlebar: activity
+titlebar: Activity
 subtitle: 
-menu: activity
+menu: Activity
 css: ['blog-page.css']
-permalink: /Activity
-keywords: android,activity
+permalink: /activity
+keywords: Android,Activity
 ---
-{% include Activity.html %}
+{% include activity.html %}

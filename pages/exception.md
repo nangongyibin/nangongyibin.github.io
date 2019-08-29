@@ -1,9 +1,9 @@
 ---
 layout: page
-title: exception
-titlebar: exception
+title: 异常
+titlebar: 异常
 subtitle: 
-menu: exception
+menu: 异常
 css: ['blog-page.css']
 permalink: /exception
 keywords: android,异常

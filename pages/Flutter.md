@@ -5,7 +5,7 @@ titlebar: Flutter
 subtitle: 
 menu: Flutter
 css: ['blog-page.css']
-permalink: /Flutter
+permalink: /flutter
 keywords: android,Flutter
 ---
-{% include Flutter.html %}
+{% include flutter.html %}

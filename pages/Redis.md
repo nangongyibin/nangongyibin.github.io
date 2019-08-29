@@ -5,7 +5,7 @@ titlebar: Redis
 subtitle: 
 menu: Redis
 css: ['blog-page.css']
-permalink: /Redis
+permalink: /redis
 keywords: Java,Redis
 ---
-{% include Redis.html %}
+{% include redis.html %}

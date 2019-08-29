@@ -1,9 +1,9 @@
 ---
 layout: page
-title: encryption
-titlebar: encryption
+title: 加密
+titlebar: 加密
 subtitle: 
-menu: encryption
+menu: 加密
 css: ['blog-page.css']
 permalink: /encryption
 keywords: android,加密

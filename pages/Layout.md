@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Layout
-titlebar: Layout
+title: 控件
+titlebar: 控件
 subtitle: 
-menu: Layout
+menu: 控件
 css: ['blog-page.css']
-permalink: /Layout
+permalink: /layout
 keywords: android,控件
 ---
-{% include Layout.html %}
+{% include layout.html %}

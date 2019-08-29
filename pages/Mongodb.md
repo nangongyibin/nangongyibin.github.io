@@ -5,7 +5,7 @@ titlebar: Mongodb
 subtitle: 
 menu: Mongodb
 css: ['blog-page.css']
-permalink: /Mongodb
+permalink: /mongodb
 keywords: Java,Mongodb
 ---
-{% include Mongodb.html %}
+{% include mongodb.html %}

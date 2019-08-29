@@ -11,7 +11,7 @@ subtitle: 耕耘不断，晟功在望
 name: 南宫燚滨 
 email: nangongyibin@gmail.com
 description: 人生最幸福的四件事：有人信你、有人爱你、有人帮你、有人懂你。遇见不论早晚，真心才能相伴；朋友不论远近，懂得才有温暖。轰轰烈烈的，未必是真心；默默无声的，未必是无心。把一切交给时间，总会有答案。平淡中的相守，才最珍贵；简单中的拥有，才最心安！说的再好不如做的好。感恩生命中信我、爱我、懂我、帮我的人。
-keywords: 南宫燚滨,Android,
+keywords: 南宫燚滨,Android
 encoding: "utf-8"
 favicon: favicon.ico 
 
@@ -56,31 +56,6 @@ paginate_path: 'page:num'
 menus:
 
   -
-    href: /zsxq.html
-    label: 星球
-    target: _self
-
-  -
-    href: /gitchat.html
-    label: Chat
-    target: _self
-
-  -
-    href: /geektime.html
-    label: 极客
-    target: _blank
-
-  -
-    href: /life.html
-    label: 故事
-    target: _self
-
-  -
-    href: /arch.html
-    label: 架构
-    target: _self
-
-  -
     href: /link.html
     label: 友链
     target: _self
@@ -95,30 +70,34 @@ navs:
     label: Home
 
   - 
-    href: /Activity.html
+    href: /activity.html
     label: Android
     target: _self
     subnav:
 
        -
-        subHref: /Activity.html
+        subHref: /activity.html
         subLabel: Activity
 
        -
-        subHref: /Layout.html
+        subHref: /layout.html
         subLabel: 控件
+        
+       -
+        subHref: /database.html
+        subLabel: 数据库
 
        -
-        subHref: /Kotlin.html
+        subHref: /kotlin.html
         subLabel: Kotlin
 
        -
-        subHref: /Flutter.html
+        subHref: /flutter.html
         subLabel: Flutter
 
  
        -
-        subHref: /ThirdPartyService.html
+        subHref: /third-party-service.html
         subLabel: 第三方服务
 
        -
@@ -136,25 +115,25 @@ navs:
 
 
   -
-    href: /Redis.html
+    href: /redis.html
     label: Java
     target: _self
     subnav:
     
       -
-        subHref: /JavaSyntax.html
+        subHref: /java-syntax.html
         subLabel: Java语法
         
       -
-        subHref: /MySql.html
+        subHref: /mysql.html
         subLabel: MySQL
 
       -
-        subHref: /Redis.html
+        subHref: /redis.html
         subLabel: Redis
 
       -
-        subHref: /Mongodb.html
+        subHref: /mongodb.html
         subLabel: Mongodb
         
         
@@ -170,13 +149,13 @@ navs:
         subLabel: HTML
 
   -
-    href: /C.html
+    href: /c.html
     label: C/C++
     target: _self
 
 
   -
-    href: /Linux.html
+    href: /linux.html
     label: Linux
     target: _self
 
@@ -205,34 +184,19 @@ navs:
 labels:
 
   -
-    href: /open-source.html
+    href: /open-source-page.html
     label: Code  
     target: _blank
-
-  -
-    href: /it.html
-    label: IT 
-    target: _blank
-
 
 
 # selected articles
 classes:
 
   -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
+    href: /kotlin.html
+    name: Kotlin
+    describe: Android 官方开发语言
 
-  -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
-
-  -
-    href: /java.html
-    name: Java 系列文章
-    describe: Java 之根基，Java 程序员必学
 
 
 # ---------------- #
