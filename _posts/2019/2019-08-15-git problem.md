@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Git冲突：commit your changes or stash them before you can merge.
-category: git
-tags: [git]
+category: Git
+tags: [Git]
 excerpt: Git冲突：commit your changes or stash them before you can merge.
 ---
 
