@@ -3,7 +3,7 @@ layout: post
 title: nginx启动错误
 category: Linux
 tags: [Linux]
-excerpt: nginx的安装
+excerpt: nginx启动错误
 ---
 ### 问题一 ###
 

@@ -115,7 +115,7 @@ navs:
 
 
   -
-    href: /redis.html
+    href: /java-syntax.html
     label: Java
     target: _self
     subnav:
