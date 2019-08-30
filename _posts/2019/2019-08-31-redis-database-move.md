@@ -1,9 +1,9 @@
 ---
 layout: post
-title: redis几种数据导出导入方式
+title: Redis几种数据导出导入方式
 category: Linux
 tags: [Linux]
-excerpt: redis几种数据导出导入方式
+excerpt: Redis几种数据导出导入方式
 ---
 
 ## 环境说明： ##
@@ -82,3 +82,7 @@ excerpt: redis几种数据导出导入方式
 	redis-cli -h 202.102.221.11 -p 6379 -a password -n 0 --raw dump $key | perl -pe 'chomp if eof' | redis-cli -h 202.102.221.12 -p 6379 -a password -n 1 -x restore $key 0
 	echo "migrate key $key"
 	done
+
+参考网站：
+
+<https://www.jianshu.com/p/8b47d5d16851>

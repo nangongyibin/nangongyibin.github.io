@@ -101,3 +101,27 @@ excerpt: mysql启动问题
 4、修改/etc/my.cnf。把“skip”这一行内容注释掉
 
 5、再次重启mysql服务器即可
+
+
+### 问题五 ###
+
+
+登录mysql服务：
+
+    mysql -uroot -p
+
+提示错误：
+
+    ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+
+原因：tmp目录无mysql.sock文件
+
+解决方法：
+
+	搜索mysql.sock文件，发现在/var/lib/mysql/mysql.sock
+	建立一个软连接	
+	ln -s /var/lib/mysql/mysql.sock /tmp/mysql.sock
+
+参考网址：
+
+<https://blog.csdn.net/a1173537204/article/details/88069724>

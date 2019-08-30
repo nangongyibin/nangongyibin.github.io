@@ -1,9 +1,9 @@
 ---
 layout: post
-title: MySQL的主从复制配置
+title: mysql的主从复制配置
 category: Linux
 tags: [Linux]
-excerpt: MySQL的主从复制配置
+excerpt: mysql的主从复制配置
 ---
 
 

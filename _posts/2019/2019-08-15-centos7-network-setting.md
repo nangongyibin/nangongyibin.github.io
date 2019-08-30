@@ -1,9 +1,9 @@
 ---
 layout: post
-title: centos7网络设置
+title: Centos7网络设置
 category: Linux
 tags: [Linux]
-excerpt: centos7网络设置
+excerpt: Centos7网络设置
 ---
 
 ## 1、连接以太网(Ethernet) ##

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: MONGODB导出与导入远程LINUX服务器上的数据
+title: Mongodb导出与导入远程Linux服务器上的数据
 category: Linux
 tags: [Linux]
-excerpt: MONGODB导出与导入远程LINUX服务器上的数据
+excerpt: Mongodb导出与导入远程Linux服务器上的数据
 ---
 
 ## 场景 ##
@@ -41,9 +41,13 @@ excerpt: MONGODB导出与导入远程LINUX服务器上的数据
 | --upsert  | 导入的记录创建或更新 |
 
 
-### 导入数据 ###
+## 导入数据 ##
 
 也是在bin目录下；
 
 	mongoimport -u admin -p 123456 --authenticationDatabase admin -h 10.6.22.12:27017 -d test -c people_test --file /e/temp/people.json --upsert rm /e/temp/people.json
 
+
+参考网站：
+
+<https://www.cnblogs.com/theRhyme/p/10900437.html>
