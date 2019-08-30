@@ -144,6 +144,7 @@ excerpt: 使用sql语言操作数据库里面的表
 	select name,sum(price) from orders group by name; 
 	对商品进行分类，得到每类商品的总价格大于66的商品 where关键字后面不可以加聚合函数 
 	select name,sum(price) from orders group by name having sum(price)>66;
+
 ## 10、limit ##
 
 limit 0 2： 0代表从第几条开始查，2代表查询的个数。
