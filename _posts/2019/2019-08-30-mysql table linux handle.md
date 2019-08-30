@@ -1,6 +1,6 @@
 ---
 layout: post
-title: E使用sql语言操作数据库里面的表
+title: 使用sql语言操作数据库里面的表
 category: MySql
 tags: [MySql]
 excerpt: 使用sql语言操作数据库里面的表

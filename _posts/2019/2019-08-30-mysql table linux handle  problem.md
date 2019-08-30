@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ERROR 1366 (HY000): Incorrect string value: '\xE7\x94\xB5\xE8\xA7\x86' for column 'name' at row 1
+title: 向数据库表插入数据遇到的问题
 category: MySql
 tags: [MySql]
-excerpt: ERROR 1366 (HY000): Incorrect string value: '\xE7\x94\xB5\xE8\xA7\x86' for column 'name' at row 1
+excerpt: 向数据库表插入数据遇到的问题
 ---
 
 向数据库表插入数据： 
