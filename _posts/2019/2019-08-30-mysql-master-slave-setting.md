@@ -7,7 +7,7 @@ excerpt: MySQL的主从复制配置
 ---
 
 
-##（1）在主库Master的配置，用vim 打开 /etc/my.cnf文件，添加server_id和log-bin参数 ##
+## （1）在主库Master的配置，用vim 打开 /etc/my.cnf文件，添加server_id和log-bin参数 ##
 	
 	[mysqld]
 	server_id = 52            #不能和从数据库的一样
@@ -25,7 +25,7 @@ excerpt: MySQL的主从复制配置
 ![](http://www.nangongyibin.com/assets/images/mmss2.png)
 
 
-##（3）在主库上建立用于主从复制的账号，检查账号建立成功。 ##
+## （3）在主库上建立用于主从复制的账号，检查账号建立成功。 ##
 
     grant replication slave on *.* to 'rep'@'192.168.31.%' identified by 'pcm123456';
 	flush privileges;
@@ -46,7 +46,7 @@ excerpt: MySQL的主从复制配置
 
 ![](http://www.nangongyibin.com/assets/images/mmss6.png)
 
-##（5）从库上操作，设置server-id并关闭binlog功能。 ##
+## （5）从库上操作，设置server-id并关闭binlog功能。 ##
 
 从库上的server-id不能和主库的serverid一致，这里我们设置主库的server-id为53，binlog的功能默认关闭的。
 
@@ -80,7 +80,7 @@ excerpt: MySQL的主从复制配置
 
 ![](http://www.nangongyibin.com/assets/images/mmss9.png)
 
-##（8）从库上开启同步开关，测试主从复制配置情况 ##
+## （8）从库上开启同步开关，测试主从复制配置情况 ##
 
 ![](http://www.nangongyibin.com/assets/images/mmss10.png)
 
