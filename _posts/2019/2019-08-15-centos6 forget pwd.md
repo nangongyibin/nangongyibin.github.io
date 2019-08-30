@@ -18,9 +18,7 @@ excerpt: Centos6忘记密码的拯救办法
 
 ![](http://www.nangongyibin.com/assets/images/centos25.png)
 
-## 3、进入该编辑模式后，在quiet后面输入 simple 或者 1 然后回车
-
-  ##
+## 3、进入该编辑模式后，在quiet后面输入 simple 或者 1 然后回车     ##
 
 ![](http://www.nangongyibin.com/assets/images/centos26.png)
 
