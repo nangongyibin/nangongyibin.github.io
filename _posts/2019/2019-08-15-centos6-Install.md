@@ -1,9 +1,9 @@
 ---
 layout: post
-title: VMware虚拟机安装centos6图文步骤
+title: VMware虚拟机安装Centos6图文步骤
 category: Linux
 tags: [Linux]
-excerpt: VMware虚拟机安装centos6图文步骤
+excerpt: VMware虚拟机安装Centos6图文步骤
 ---
 
 ## 1、在vmware上开始安装CentOS系统，点击菜单新建虚拟机， ##
