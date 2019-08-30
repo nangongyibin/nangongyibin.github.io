@@ -6,6 +6,8 @@ tags: [MySql]
 excerpt: 向数据库表插入数据遇到的问题
 ---
 
+## Linux问题一 ##
+
 向数据库表插入数据： 
 
     insert into orders values(1,'电视',2000);
@@ -21,3 +23,20 @@ excerpt: 向数据库表插入数据遇到的问题
 
 	LTER TABLE tbl_name CONVERT TO CHARACTER SET character_name [COLLATE ...]
 	如：ALTER TABLE orders CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+## windows问题二##
+
+向数据库表插入数据： 
+
+    insert into orders values(1,'电视',2000);
+
+提示错误： 
+
+    1366 incorrect string value \xe5\x8d\x97\xe5\xae\xa8...for column name at row1
+
+
+原因：
+
+解决方法：
+
+	mysql插入数据含有中文报错，原因是创建表时没有设置DEFAULT CHARSET=utf8 ,mysql就默认编码为latin1，把默认编码字符集改为utf8就不会报错了
