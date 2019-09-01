@@ -74,3 +74,23 @@ Navicat连Mysql数据库出现如下的错误
 	然后将文件拷贝到内网服务器上
 	scp /usr/local/tools/xxx文件 root@192.168.0.240:/usr/local/tools
 	目标文件                 目的服务器及位置
+
+### 问题五 ###
+
+导入数据遇到的问题
+
+提示错误： 
+
+    ERROR 1273 (HY000): Unknown collation: 'utf8mb4_0900_ai_ci'
+
+
+原因：
+	
+	MySQL版本不兼容
+
+解决方法：
+
+    打开sql文件，将文件中的所有
+	utf8mb4_0900_ai_ci替换为utf8_general_ci
+	utf8mb4替换为utf8
+	保存后再次运行sql文件，运行成功

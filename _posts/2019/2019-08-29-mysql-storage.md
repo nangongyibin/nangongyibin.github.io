@@ -1,9 +1,9 @@
 ---
 layout: post
-title: MySql的存储结构
+title: mySql的存储结构
 category: MySql
 tags: [MySql]
-excerpt: MySql的存储结构
+excerpt: mySql的存储结构
 ---
 
 ![](http://www.nangongyibin.com/assets/images/ms1.png)

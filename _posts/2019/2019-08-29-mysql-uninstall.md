@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Mysql服务器及卸载
+title: mysql服务器及卸载
 category: MySql
 tags: [DataBase]
-excerpt: Mysql服务器及卸载
+excerpt: mysql服务器及卸载
 ---
 
 ## 1、mysql服务器 ##
