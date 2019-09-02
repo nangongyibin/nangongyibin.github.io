@@ -1,0 +1,11 @@
+---
+layout: post
+title: 国际化
+category: Other
+tags: [Other]
+excerpt: 国际化
+---
+
+#### 在res目录下创建各个缩略语言目录就可以了  ####
+
+![](http://www.nangongyibin.com/assets/images/nation1.png)
