@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Slave failed to initialize relay log info structure from the repository, Error_code: 1872
+title: Slave failed to initialize relay log info structure from the repository, Error_code【1872】
 category: Linux
 tags: [Linux]
-excerpt: Slave failed to initialize relay log info structure from the repository, Error_code: 1872
+excerpt: Slave failed to initialize relay log info structure from the repository, Error_code【1872】
 ---
 
 在一台主机上增加一个slave，启动的时候报
