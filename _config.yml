@@ -127,17 +127,7 @@ navs:
       -
         subHref: /mysql.html
         subLabel: MySQL
-
-      -
-        subHref: /redis.html
-        subLabel: Redis
-
-      -
-        subHref: /mongodb.html
-        subLabel: Mongodb
-        
-        
-
+          
   -
     href: /html.html
     label: Web
