@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ERROR 1010 (HY000): Error dropping database (can't rmdir './myapp', errno: 39)
+title: dropping-database-errno
 category: Linux
 tags: [Linux]
-excerpt: ERROR 1010 (HY000): Error dropping database (can't rmdir './myapp', errno: 39)
+excerpt: dropping-database-errno
 ---
 
 删除数据时
