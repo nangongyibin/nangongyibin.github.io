@@ -107,10 +107,6 @@ navs:
        -
         subHref: /encryption.html
         subLabel: 加密
-      
-       -
-        subHref: /other.html
-        subLabel: Other
 
        -
         subHref: /exception.html
@@ -120,7 +116,9 @@ navs:
         subHref: /interview.html
         subLabel: 面试题
 
-
+       -
+        subHref: /other.html
+        subLabel: Other
 
   -
     href: /java-syntax.html
