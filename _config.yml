@@ -79,6 +79,11 @@ navs:
         subHref: /activity.html
         subLabel: Activity
 
+
+       -
+        subHref: /broadcastReceiver.html
+        subLabel: 广播接收者
+        
        -
         subHref: /layout.html
         subLabel: 控件

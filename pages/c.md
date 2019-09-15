@@ -1,11 +1,11 @@
 ---
 layout: page
-title: C/C++
-titlebar: C/C++
+title: 广播接收者
+titlebar: 广播接收者
 subtitle: 
-menu: C/C++
+menu: broadcastReceiver
 css: ['blog-page.css']
-permalink: /c
-keywords: C/C++
+permalink: /broadcastReceiver
+keywords: 广播接收者
 ---
-{% include c.html %}
+{% include broadcastReceiver.html %}
