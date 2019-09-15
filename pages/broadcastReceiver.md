@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Activity
-titlebar: Activity
+title: BroadcastReceiver
+titlebar: BroadcastReceiver
 subtitle: 
-menu: Activity
+menu: BroadcastReceiver
 css: ['blog-page.css']
-permalink: /activity
-keywords: Android,Activity
+permalink: /broadcastreceiver
+keywords: Android,BroadcastReceiver
 ---
 
-{% include activity.html %}
+{% include broadcastreceiver.html %}
