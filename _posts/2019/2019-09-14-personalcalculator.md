@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 人品计算器 
-category: Other
-tags: [Other]
+category: Activity
+tags: [Activity]
 excerpt: 人品计算器 
 ---
 
