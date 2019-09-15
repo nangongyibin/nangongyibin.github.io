@@ -81,7 +81,7 @@ navs:
 
 
        -
-        subHref: /broadcastReceiver.html
+        subHref: /broadcastreceiver.html
         subLabel: 广播接收者
         
        -
