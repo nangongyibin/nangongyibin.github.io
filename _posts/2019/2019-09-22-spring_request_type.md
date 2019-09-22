@@ -1,0 +1,19 @@
+---
+layout: post
+title: springboot请求方式（GET、POST）
+category: Java
+tags: [Java]
+excerpt: springboot请求方式（GET、POST）
+---
+
+### springboot支持get请求写法 ###
+
+    @RequestMapping(value = "/GetRequest", method = {RequestMethod.GET})
+
+### springboot支持post请求写法 ###
+
+    @RequestMapping(value = "/PostRequest", method = {RequestMethod.POST})
+
+参考网址：
+
+<https://blog.csdn.net/xingkaichun/article/details/92579001>

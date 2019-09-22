@@ -1,0 +1,19 @@
+---
+layout: post
+title: 获取Android手机信息
+category: Other
+tags: [Other]
+excerpt: 获取Android手机信息
+---
+
+### 手机型号 ###
+
+    android.os.Build.MODEL
+
+### 系统版本 ###
+
+    android.os.Build.VERSION.RELEASE
+
+参考网址：
+
+<https://blog.csdn.net/qq_34329508/article/details/52730737>

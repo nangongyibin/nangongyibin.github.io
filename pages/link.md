@@ -49,7 +49,10 @@ permalink: /link
 - [百度脑图](http://naotu.baidu.com/)
 - [摹客](https://www.mockplus.cn/)
 - [日事清](https://www.rishiqing.com/)
-- 
+- [迅雷影院](https://www.22tu.cc)
+- [天天影院](http://www.27k.cc)
+
+
 ## 个人链接
 
 - [nangongyibin](http://www.nangongyibin.com/) - 个人独立博客

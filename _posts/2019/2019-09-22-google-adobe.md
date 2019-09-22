@@ -1,0 +1,16 @@
+---
+layout: post
+title: 浏览网页时为什么一直提示“Adobe Flash Player插件已被屏蔽”？
+category: Art
+tags: [Art]
+excerpt: 浏览网页时为什么一直提示“Adobe Flash Player插件已被屏蔽”？
+---
+
+### 解决方式一 ###
+
+    打开 chrome://settings/content，把 Adobe Flash Player 插件设置更改为"允许网站运行Flash"。
+
+
+参考网址：
+
+<http://www.cnplugins.com/tool/why-lock-adobe.html>

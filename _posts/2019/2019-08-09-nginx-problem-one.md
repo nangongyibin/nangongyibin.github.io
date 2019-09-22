@@ -189,3 +189,37 @@ excerpt: nginx启动错误
 参考网址：
 
 <https://blog.csdn.net/baidu_37895884/article/details/78218322>
+
+
+### 问题四 ###
+
+启动nginx服务： 
+
+    service nginx start
+
+
+问题描述：
+
+	centOS7访问nginx失败解决-.0:80 failed (98: Address already in use)解决
+
+原因：
+
+解决方法：
+
+	[root@localhost ~]# killall -9 nginx
+	再次启动nginx：
+	[root@localhost ~]# service nginx start
+	查看是否启动：
+	[root@localhost ~]# ps aux|grep nginx
+	输出：
+	root       7110  0.0  0.0  24348   752 ?        Ss   22:32   0:00 nginx: master process /usr/local/nginx/sbin/nginx
+	nobody     7111  0.0  0.0  26860  1508 ?        S    22:32   0:00 nginx: worker process
+	root       7114  0.0  0.0 112664   968 pts/0    S+   22:33   0:00 grep --color=auto nginx
+	启动成功！
+	访问nginx
+	在浏览器地址栏输入你的Linux虚拟机的静态ip，会跳转到nginx的欢迎页面。
+
+
+参考网址：
+
+<https://blog.csdn.net/zyhlearnjava/article/details/71908529>
