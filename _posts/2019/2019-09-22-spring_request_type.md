@@ -1,9 +1,9 @@
 ---
 layout: post
-title: springboot请求方式（GET、POST）
+title: springboot请求方式
 category: Java
 tags: [Java]
-excerpt: springboot请求方式（GET、POST）
+excerpt: springboot请求方式
 ---
 
 ### springboot支持get请求写法 ###

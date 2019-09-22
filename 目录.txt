@@ -13,9 +13,7 @@
 	Interview
 Java
 	Java
-	Mongodb
 	MySql
-	Redis
 Web
 	Html
 C
