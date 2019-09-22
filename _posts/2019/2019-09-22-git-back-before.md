@@ -1,0 +1,35 @@
+---
+layout: post
+title: Git远程版本回退
+category: Git
+tags: [Git]
+excerpt: Git远程版本回退
+---
+
+步骤：
+### 1、选中提交的项目右键---》TortoiseGit ----> show log，如图所示：
+ ###
+
+![](http://www.nangongyibin.com/assets/images/gbb1.png)
+
+### 2、找到错误版本提交时的log右键，如图所示： ###
+
+![](http://www.nangongyibin.com/assets/images/gbb2.png)
+
+### 3、选中reset 当前分支至选中日志版本。然后就可以将本地代码回退到错误提交之前的版本。 ###
+
+### 4、然后将本地代码强制提交到git远程对应分支仓库，，使用强制提交的命令为： ###
+
+	git push -f
+
+运行后为：
+
+
+![](http://www.nangongyibin.com/assets/images/gbb3.png)
+
+
+此时边将远程git仓库回退到之前的版本了
+
+参考网址：
+
+<https://www.cnblogs.com/zjdxr-up/p/10941898.html>
