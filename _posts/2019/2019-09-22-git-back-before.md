@@ -7,8 +7,7 @@ excerpt: Git远程版本回退
 ---
 
 步骤：
-### 1、选中提交的项目右键---》TortoiseGit ----> show log，如图所示：
- ###
+### 1、选中提交的项目右键---》TortoiseGit ----> show log，如图所示： ###
 
 ![](http://www.nangongyibin.com/assets/images/gbb1.png)
 
