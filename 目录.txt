@@ -12,6 +12,7 @@
 	NetLib
 	Interview
 	Service
+	ContentProvider
 Java
 	Java
 	MySql

@@ -89,6 +89,10 @@ navs:
         subHref: /service.html
         subLabel: 服务
         
+       -
+        subHref: /contentprovider.html
+        subLabel: 内容提供者
+        
         
        -
         subHref: /layout.html
