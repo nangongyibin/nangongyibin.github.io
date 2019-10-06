@@ -1,0 +1,26 @@
+---
+layout: post
+title: EditText软键盘输入法回车键改成下一步Next
+category: Layout
+tags: [Layout]
+excerpt: EditText软键盘输入法回车键改成下一步Next
+---
+
+只需在EditText所在的布局文件中加上
+
+
+	android:imeOptions="actionNext"
+	android:singleLine="true"
+
+
+如果想要指定下一步获取的焦点的控件还需要在EditText所在的布局文件中加上
+
+	android:nextFocusForward="@+id/edit3"
+
+需要注意设置的值写法是@+id/edit3而不是@id/edit3，少了加号的话无法编译成功。
+
+	
+参考网址：<https://blog.csdn.net/mqdxiaoxiao/article/details/88857532>
+
+
+
