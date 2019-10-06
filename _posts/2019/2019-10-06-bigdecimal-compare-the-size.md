@@ -1,0 +1,19 @@
+---
+layout: post
+title: BigDecimal比较大小问题
+category: Java
+tags: [Java]
+excerpt: BigDecimal比较大小问题
+---
+
+	compareTo就是比较两个值，如果前者大于后者，返回1，等于返回0，小于返回-1
+#
+
+	if（a.compareTo（b）== 0）结果是true
+
+
+
+参考网址：<https://blog.csdn.net/hu15903314850/article/details/80407608>
+
+
+

@@ -1,0 +1,23 @@
+---
+layout: post
+title: 对象的集合ArrayList去重
+category: Java
+tags: [Java]
+excerpt: 对象的集合ArrayList去重
+---
+
+		Set<ChooseSDBean> set = new TreeSet<ChooseSDBean>(new Comparator<ChooseSDBean>() {
+            @Override
+            public int compare(ChooseSDBean o1, ChooseSDBean o2) {
+                //字符串,则按照asicc码升序排列
+                //根据sfxid去重
+                return o1.getSd_id().compareTo(o2.getSd_id());
+            }
+        });
+        set.addAll(csd);
+
+
+参考网址：<https://blog.csdn.net/I_am_a_buger/article/details/81026018>
+
+
+
