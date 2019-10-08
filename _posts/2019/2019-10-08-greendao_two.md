@@ -1,9 +1,9 @@
 ---
 layout: post
-title: greendao 批量操作如何开启一个事务？
+title: GreenDao批量操作如何开启一个事务？
 category: DataBase
 tags: [DataBase]
-excerpt: greendao 批量操作如何开启一个事务？
+excerpt: GreenDao批量操作如何开启一个事务？
 ---
 
 这是网上的一段代码，但是这是批量插入

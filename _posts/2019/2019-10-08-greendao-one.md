@@ -203,23 +203,25 @@ GreenDao中SQL语句的缩写
 查询当前Student表的所有的数据：
 
 
- 	public List queryAllList(){
-  		DaoSession daoSession = ((AserbaoApplication) getApplication()).getDaoSession();
-        QueryBuilder<Student> qb = daoSession.queryBuilder(Student.class);
-        List<Student> list = qb.list(); // 查出所有的数据
-		return list;
-    }
+
+	 	public List queryAllList(){
+	  		DaoSession daoSession = ((AserbaoApplication) getApplication()).getDaoSession();
+	        QueryBuilder<Student> qb = daoSession.queryBuilder(Student.class);
+	        List<Student> list = qb.list(); // 查出所有的数据
+			return list;
+	    }
 
 
 查询Name为“一”的所有Student:
 
- 	public List queryListByMessage(String name){
-		 DaoSession daoSession = ((AserbaoApplication) getApplication()).getDaoSession();
-        QueryBuilder<Student> qb = daoSession.queryBuilder(Student.class);
-        QueryBuilder<Student> studentQueryBuilder = qb.where(StudentDao.Properties.Name.eq("一")).orderAsc(StudentDao.Properties.Name);
-        List<Student> studentList = studentQueryBuilder.list(); //查出当前对应的数据
-        return list;
-    }
+
+	 	public List queryListByMessage(String name){
+			 DaoSession daoSession = ((AserbaoApplication) getApplication()).getDaoSession();
+	        QueryBuilder<Student> qb = daoSession.queryBuilder(Student.class);
+	        QueryBuilder<Student> studentQueryBuilder = qb.where(StudentDao.Properties.Name.eq("一")).orderAsc(StudentDao.Properties.Name);
+	        List<Student> studentList = studentQueryBuilder.list(); //查出当前对应的数据
+	        return list;
+	    }
 
 #### 2.4.4.1.1.2、原始查询 ####
 
@@ -251,15 +253,15 @@ GreenDao中SQL语句的缩写
 
 取10条Id大于1的数据，且偏移2条
 
- 	public List queryListByOther(){
-        DaoSession daoSession = ((AserbaoApplication) getApplication()).getDaoSession();
-        QueryBuilder<Student> qb = daoSession.queryBuilder(Student.class);
-
-        //搜索条件为Id值大于1，即结果为[2,3,4,5,6,7,8,9,10,11];
-        // offset(2)表示往后偏移2个，结果为[4,5,6,7,8,9,10,11,12,13];
-        List<Student> list = qb.where(StudentDao.Properties.Id.gt(1)).limit(10).offset(2).list();
-        return list;
-    }
+	 	public List queryListByOther(){
+	        DaoSession daoSession = ((AserbaoApplication) getApplication()).getDaoSession();
+	        QueryBuilder<Student> qb = daoSession.queryBuilder(Student.class);
+	
+	        //搜索条件为Id值大于1，即结果为[2,3,4,5,6,7,8,9,10,11];
+	        // offset(2)表示往后偏移2个，结果为[4,5,6,7,8,9,10,11,12,13];
+	        List<Student> list = qb.where(StudentDao.Properties.Id.gt(1)).limit(10).offset(2).list();
+	        return list;
+	    }
 
 
 #### 2.4.4.1.1.4、多次执行查找 ####
@@ -267,20 +269,20 @@ GreenDao中SQL语句的缩写
 使用QueryBuilder构建查询后，可以重用 Query对象以便稍后执行查询。这比始终创建新的Query对象更有效。如果查询参数没有更改，您可以再次调用list / unique方法。可以通过setParameter方法来修改条件参数值，特别注意：如果查询条件不同，则需要构建新的QueryBuilder：
 
 
- 	public List queryListByMoreTime(){
-        DaoSession daoSession = ((AserbaoApplication) getApplication()).getDaoSession();
-        QueryBuilder<Student> qb = daoSession.queryBuilder(Student.class);
-
-        //搜索条件为Id值大于1，即结果为[2,3,4,5,6,7,8,9,10,11];
-        // offset(2)表示往后偏移2个，结果为[4,5,6,7,8,9,10,11,12,13];
-        Query<Student> query = qb.where(StudentDao.Properties.Id.gt(1)).limit(10).offset(2).build();
-        List<Student> list = query.list();
-        
-        //通过SetParameter来修改上面的查询条件，比如我们将上面条件修改取10条Id值大于5，往后偏移两位的数据，方法如下！
-        query.setParameter(0,5);
-        List<Student> list1 = query.list();
-        return list1;
-    }
+	 	public List queryListByMoreTime(){
+	        DaoSession daoSession = ((AserbaoApplication) getApplication()).getDaoSession();
+	        QueryBuilder<Student> qb = daoSession.queryBuilder(Student.class);
+	
+	        //搜索条件为Id值大于1，即结果为[2,3,4,5,6,7,8,9,10,11];
+	        // offset(2)表示往后偏移2个，结果为[4,5,6,7,8,9,10,11,12,13];
+	        Query<Student> query = qb.where(StudentDao.Properties.Id.gt(1)).limit(10).offset(2).build();
+	        List<Student> list = query.list();
+	        
+	        //通过SetParameter来修改上面的查询条件，比如我们将上面条件修改取10条Id值大于5，往后偏移两位的数据，方法如下！
+	        query.setParameter(0,5);
+	        List<Student> list1 = query.list();
+	        return list1;
+	    }
 
 
 #### 2.4.4.1.1.5、在多个线程中使用QueryBuilder ####
