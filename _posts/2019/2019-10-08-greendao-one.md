@@ -115,20 +115,20 @@ GreenDao的核心类有三个：分别是DaoMaster,DaoSession,XXXDao，这三个
 
 在Application中维持一个全局的会话。我们在Applicaiton进行数据库的初始化操作：
 
- 	/**
-     * 初始化GreenDao,直接在Application中进行初始化操作
-     */
-    private void initGreenDao() {
-        DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this, "aserbao.db");
-        SQLiteDatabase db = helper.getWritableDatabase();
-        DaoMaster daoMaster = new DaoMaster(db);
-        daoSession = daoMaster.newSession();
-    }
-    
-    private DaoSession daoSession;
-    public DaoSession getDaoSession() {
-        return daoSession;
-    }
+	 	/**
+	     * 初始化GreenDao,直接在Application中进行初始化操作
+	     */
+	    private void initGreenDao() {
+	        DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this, "aserbao.db");
+	        SQLiteDatabase db = helper.getWritableDatabase();
+	        DaoMaster daoMaster = new DaoMaster(db);
+	        daoSession = daoMaster.newSession();
+	    }
+	    
+	    private DaoSession daoSession;
+	    public DaoSession getDaoSession() {
+	        return daoSession;
+	    }
 
 
 初始化完成之后重新rebuild一下项目会发现在设置的targetGenDir的目录生成三个类文件，这个是GreenDao自动生成的！说明数据库已经连接好了，咱们接下来只需要进行数据库的增删改查操作就行了。
