@@ -1,9 +1,9 @@
 ---
 layout: post
-title:    通过内容提供者向联系人数据库插入联系人
+title:    内容观察者 
 category: ContentProvider
 tags: [ContentProvider]
-excerpt:  通过内容提供者向联系人数据库插入联系人 
+excerpt:  内容观察者 
 ---
 
 - 内容观察者不是四大组件，可以用来观察数据库是否被操作了
