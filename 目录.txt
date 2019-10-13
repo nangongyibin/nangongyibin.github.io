@@ -1,5 +1,6 @@
 ﻿Android
 	Activity
+	Fragment
 	Layout
 	Kotlin
 	DataBase
