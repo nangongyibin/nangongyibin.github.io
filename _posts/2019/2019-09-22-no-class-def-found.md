@@ -1,8 +1,8 @@
 ---
 layout: post
 title: java.lang.NoClassDefFoundError；failed resolution of ；Lorg/apache/http/ProtocolVersion
-category: Other
-tags: [Other]
+category: Exception
+tags: [Exception]
 excerpt: java.lang.NoClassDefFoundError；failed resolution of ；Lorg/apache/http/ProtocolVersion
 ---
 
