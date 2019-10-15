@@ -52,7 +52,7 @@ permalink: /link
 
 - [前端在线编程调试](http://jsbin.com/?html,output)
 - [JavaScript 代码质量工具](http://www.jslint.com/)
-- [自学 IT 网](https://www.51zxw.net/)
+
 
 ## JAVA推荐网站
 
@@ -82,7 +82,7 @@ permalink: /link
 - [代码分享](https://www.journals.elsevier.com/carbon)
 - [代码托管](https://github.com/)
 - [DaFont](https://www.toutiao.com/i6706726086199214595/)
-
+- [自学 IT 网](https://www.51zxw.net/)
 
 
 
