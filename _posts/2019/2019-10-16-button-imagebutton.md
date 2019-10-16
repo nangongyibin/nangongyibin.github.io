@@ -1,0 +1,10 @@
+---
+layout: post
+title:    Button和ImageButton  
+category: Layout
+tags: [Layout]
+excerpt:  Button和ImageButton 
+---
+
+
+![](http://www.nangongyibin.com/assets/images/bi1.png)
