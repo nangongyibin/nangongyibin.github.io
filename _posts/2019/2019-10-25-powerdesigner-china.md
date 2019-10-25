@@ -1,0 +1,29 @@
+---
+layout: post
+title:    如何对PowerDesigner16.5版本进行汉化  
+category: MySql
+tags: [MySql]
+excerpt:  如何对PowerDesigner16.5版本进行汉化
+---
+
+## 1、安装PowerDesigner16.5版本，安装过程很简单，下载安装包后直接进行安装即可，本次重点介绍汉化过程，不再对安装进行赘述 ##
+
+
+## 2、从网盘中下载汉化文件包，下载后将其解压到一个文件夹中，文件内容如下图所示 ##
+
+![](http://www.nangongyibin.com/assets/images/pc8.png)
+
+## 3、将解压出的内容全部拷入到PowerDesigner的安装目录下，直接从快捷方式使用打开文件目录即可。 ##
+
+![](http://www.nangongyibin.com/assets/images/pc9.png)
+
+## 4、选择直接覆盖后，再打开PowerDesigner就会发现已经汉化成功 ##
+
+![](http://www.nangongyibin.com/assets/images/pc10.png)
+
+
+参考网址：
+
+<https://jingyan.baidu.com/article/925f8cb88eb7c2c0dde05699.html>
+
+汉化文件 链接: <https://pan.baidu.com/s/1pLA4siv> 密码: eaji
