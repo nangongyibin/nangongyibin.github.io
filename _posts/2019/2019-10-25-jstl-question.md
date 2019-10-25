@@ -1,8 +1,8 @@
 ---
 layout: post
 title:    JSTL使用问题  
-category: Web
-tags: [Web]
+category: Html
+tags: [Html]
 excerpt:  JSTL使用问题
 ---
 
