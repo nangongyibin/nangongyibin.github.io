@@ -1,0 +1,22 @@
+---
+layout: post
+title:    JSTL使用问题  
+category: Web
+tags: [Web]
+excerpt:  JSTL使用问题
+---
+
+在jsp中当加入<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>时，直接报错
+
+
+解决方案：
+
+	缺少jstl.jar standard.jar两个包
+
+
+
+参考网址：
+
+<https://blog.csdn.net/lzh657083979/article/details/76039297>
+
+

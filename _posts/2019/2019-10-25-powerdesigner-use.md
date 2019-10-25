@@ -1,0 +1,40 @@
+---
+layout: post
+title:    使用PowerDesigner做数据库设计  
+category: MySql
+tags: [MySql]
+excerpt:  使用PowerDesigner做数据库设计
+---
+
+## 1、首先官网下载PowerDesigner安装程序，并完成安装； ##
+
+安装成功后，打开电脑上的PowerDesigner程序，打开后的程序界面如下图所示：
+
+![](http://www.nangongyibin.com/assets/images/pu1.png)
+
+![](http://www.nangongyibin.com/assets/images/pu2.png)
+
+## 2、选中workspace右键选择“new-->physical Data Model”，选择DBMS、填写项目名称后，点击OK完成数据库模型的创建。 ##
+
+![](http://www.nangongyibin.com/assets/images/pu3.png)
+
+## 3、选中数据库模型项目，右键选择“new-->table"，填写表名、列等属性即可完成一个数据库表的创建~ ##
+
+创建完成后，在左侧的Tables目录下会新增一个表。
+
+![](http://www.nangongyibin.com/assets/images/pu4.png)
+
+![](http://www.nangongyibin.com/assets/images/pu5.png)
+
+## 4、同时还可以用相同的方式创建序列、视图、同义词等其他对象~ ##
+
+下图为创建的序列。
+
+![](http://www.nangongyibin.com/assets/images/pu6.png)
+
+![](http://www.nangongyibin.com/assets/images/pu7.png)
+
+## 5、选中数据库模型项目，右键选择“properties"，进入“preview”界面，可查看建表SQL。 ##
+
+![](http://www.nangongyibin.com/assets/images/pu8.png)
+

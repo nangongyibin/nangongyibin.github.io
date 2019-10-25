@@ -1,0 +1,21 @@
+---
+layout: post
+title:    安装两个不同版本的Jdk，改了path路径，但还是显示之前jdk版本号  
+category: Java
+tags: [Java]
+excerpt:  安装两个不同版本的Jdk，改了path路径，但还是显示之前jdk版本号
+---
+
+装jdk1.5，而我电脑之前装的是jdk1.6，但是当我把jdk1.5装好后，path路径也改成了jdk1.5的路径了，但是在cmd下敲下Java -version查看版本时，还是显示的jdk1.6版本！
+
+解决方案：
+
+1、将Windows\System32中的3个java开头的文件删除即可！！
+
+2、因为在安装JDK1.6时，自动将java.exe、javaw.exe、javaws.exe三个可执行文件复制到了C:\Windows\System32目录，由于这个目录在WINDOWS环境变量中的优先级高于JAVA_HOME设置的环境变量优先级。
+
+参考网址：
+
+<https://blog.csdn.net/lzh657083979/article/details/76039297>
+
+
