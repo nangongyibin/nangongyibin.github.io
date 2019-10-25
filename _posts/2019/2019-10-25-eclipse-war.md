@@ -1,0 +1,28 @@
+---
+layout: post
+title:    怎样将eclipse项目打包成WAR包  
+category: Java
+tags: [Java]
+excerpt:  怎样将eclipse项目打包成WAR包
+---
+## 方法/步骤 ##
+
+### 1、打开eclipse软件，找到要打包的项目，右击后选中Export选项： ###
+
+### 2、点开Export后出现新界面： ###
+
+### 3、在新的界面中找到web选项，将它点开选中WAR File选项： ###
+
+### 4、接着在新出现的界面中点击Browse，选择你要导出项目的目录： ###
+
+### 5、在这我将其导出到桌面上，最后点击Finish完成即可： ###
+
+
+参考网址：
+
+<https://blog.csdn.net/ggrjake25/article/details/86537850>
+
+
+
+
+
