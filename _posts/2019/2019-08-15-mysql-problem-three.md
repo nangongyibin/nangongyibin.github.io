@@ -94,3 +94,43 @@ Navicat连Mysql数据库出现如下的错误
 	utf8mb4_0900_ai_ci替换为utf8_general_ci
 	utf8mb4替换为utf8
 	保存后再次运行sql文件，运行成功
+
+
+### 问题六 ###
+
+Linux直接Mysql数据库
+
+提示错误：
+
+	ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+
+解决方案：
+
+首先需要关闭MySQL服务，输入命令：
+
+	mysql> net stop MySQL
+
+用安全模式开始本地MySQL服务，（注意：以管理员身份启动cmd窗口），输入命令 “ mysqld --defaults-file="G:\Install_Applications\mysql-8.0.11\my.ini" --console --skip-grant-tables ” 启动MySQL服务后，光标会一直停止没有任何输出，这儿的话说明MySQL服务已经启动了。
+
+
+
+启动cmd窗口，输入命令 “ mysql -uroot -p ” 直接回车登录到MySQL服务器，然后进行修改，可以输入命令：
+
+(5.7.11以前) > update user set password=password("123456") where user="root";
+
+
+
+（5.7.11 或者以后）> update user set authentication_string=password("123456") where user="root";
+
+在这儿我是用的是：
+
+	mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'HuaZai12345!';
+
+
+现在退出，在输入命令 “ mysql -uroot -p ” 在输入刚才设置的密码，就可以正常登录到MySQL服务器了
+
+参考网址：
+
+<https://blog.csdn.net/Hello_World_QWP/article/details/80346904>
+
+<https://blog.csdn.net/vv19910825/article/details/82979563>

@@ -1,0 +1,26 @@
+---
+layout: post
+title:   解决java was started but returned exit code = 13  
+category: Java
+tags: [Java]
+excerpt:  解决java was started but returned exit code = 13
+---
+
+我在安装完jdk后，也对环境进行了配置，且环境的配置是没有问题的。最后我下载了eclipse，然后打开之后就发现了以下图所示的错误：
+
+Java was started but returned exit code=13
+
+C:\ProgramData\Oracle\Java\javapath\javaw.exe
+
+![](http://www.nangongyibin.com/assets/images/exc1.png)
+
+错误原因：
+
+	（1）jdk的环境有问题
+	
+	（2）Jdk的版本和eclipse的版本不一致（jdk是32bit，eclipse是64bit或者是相反的）
+
+
+参考网址：
+
+<https://blog.csdn.net/weixin_41753022/article/details/80478472>
