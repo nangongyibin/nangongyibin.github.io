@@ -1,8 +1,8 @@
 ---
 layout: post
 title:   npm配置目录 
-category: Web
-tags: [Web]
+category: Html
+tags: [Html]
 excerpt:  npm配置目录
 ---
 
