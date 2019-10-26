@@ -1,0 +1,27 @@
+---
+layout: post
+title:   npm配置目录 
+category: Web
+tags: [Web]
+excerpt:  npm配置目录
+---
+
+进入cmd命令行，输入一下的命令设置全局模块的安装路径到node_gobal文件夹，缓存到node_cache文件夹：
+
+	npm config set prefix "E:\FRONT\nodejs\node_gobal"
+	npm config set cache "E:\FRONT\nodejs\node_cache"
+
+
+
+
+
+参考网址：
+
+
+<https://blog.csdn.net/suiyuehuimou/article/details/74143436>
+
+
+
+
+
+
