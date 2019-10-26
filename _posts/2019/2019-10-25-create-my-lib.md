@@ -53,12 +53,12 @@ excerpt:  创建自己的 Android 依赖库
 
 #### 在需要使用的项目根目录添加 ####
 
-allprojects {
-    repositories {
-            ...
-            maven { url 'https://jitpack.io' }
-        }
-    }
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 
 
 #### 在项目添加依赖（以本项目为例） ####
