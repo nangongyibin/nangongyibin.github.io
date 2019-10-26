@@ -25,10 +25,12 @@ excerpt:  创建自己的 Android 依赖库
 
 在根目录的 build.gradle 加入 maven-plugin
 
-	dependencies {
-        ...
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
-    }
+
+		dependencies {
+	        ...
+	        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+	    }
+
 
 项目的 build.gradle 添加
 

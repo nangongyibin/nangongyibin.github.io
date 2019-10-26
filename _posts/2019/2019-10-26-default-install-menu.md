@@ -1,0 +1,50 @@
+---
+layout: post
+title:   Windows10系统如何更改程序的默认安装目录？  
+category: Art
+tags: [Art]
+excerpt:  Windows10系统如何更改程序的默认安装目录？
+---
+
+
+Windows10系统更改软件程序默认安装目录的方法
+
+### 1、修改注册表键值。 ###
+
+注册表路径：HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion
+
+步骤：
+
+右键点击系统桌面左下角的“开始”，在开始菜单中点击“运行”，在运行对话框中输入regedit.exe，点击确定或者回车，打开注册表编辑器；
+
+
+![](http://www.nangongyibin.com/assets/images/dim1.jpg)
+
+### 2、在打开的注册表编辑器窗口，展开：HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion，并左键单击：CurrentVersion； ###
+
+
+![](http://www.nangongyibin.com/assets/images/dim2.jpg)
+
+
+### 3、在CurrentVersion对应的右侧窗口，找到ProgramFilesDir，并左键双击ProgramFilesDir打开编辑字符串对话框，把Program Files的数值数据从C:\Program Files更改为D:\Program Files，再点击：确定； ###
+
+![](http://www.nangongyibin.com/assets/images/dim3.jpg)
+
+### 4、如果安装的是Windows10的64位系统，在CurrentVersion对应的右侧窗口，找到ProgramFilesDir（x86），并左键双击ProgramFilesDir（x86）打开编辑字符串对话框，把Program Files（x86）的数值数据从C:\Program Files（x86）更改为D:\Program Files（x86），再点击：确定； ###
+
+
+![](http://www.nangongyibin.com/assets/images/dim4.jpg)
+
+### 5、更改数值数据后为： ###
+
+ProgramFilesDir  REG_SZ  D:\Program Files
+
+ProgramFilesDir（x86） REG_SZ  D:\Program Files（x86）
+
+退出注册表编辑器。
+
+![](http://www.nangongyibin.com/assets/images/dim5.jpg)
+
+参考网址：
+
+<https://jingyan.baidu.com/article/93f9803f017e8fe0e46f55af.html>
