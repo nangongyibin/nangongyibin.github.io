@@ -147,6 +147,10 @@ navs:
     subnav:
     
       -
+        subHref: /git.html
+        subLabel: Git
+    
+      -
         subHref: /java-syntax.html
         subLabel: Java语法
         
@@ -175,15 +179,6 @@ navs:
     label: Linux
     target: _self
 
-  -
-    href: /git.html
-    label: 软件
-    target: _self
-    subnav:
-
-      -
-        subHref: /git.html
-        subLabel: Git
 
   -
     href: /archives.html
@@ -213,11 +208,6 @@ classes:
     name: Kotlin
     describe: Android 官方开发语言
     
-  -
-    href: /art.html
-    name: 窍门
-    describe: 生活中节时全靠它
-
 
 
 # ---------------- #
