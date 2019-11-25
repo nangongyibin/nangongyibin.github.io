@@ -147,16 +147,16 @@ navs:
     subnav:
     
       -
-        subHref: /git.html
-        subLabel: Git
-    
-      -
         subHref: /java-syntax.html
         subLabel: Java语法
         
       -
         subHref: /mysql.html
         subLabel: MySQL
+        
+     -
+        subHref: /git.html
+        subLabel: Git
           
   -
     href: /html.html
