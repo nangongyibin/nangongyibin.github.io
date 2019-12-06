@@ -89,7 +89,7 @@ permalink: /link
 ## 个人链接
 
 - [nangongyibin](http://www.nangongyibin.com/) - 个人独立博客
-- [github](https://github.com/nangongyibin7219) -  我分享代码的地方
+- [github](https://github.com/nangongyibin) -  我分享代码的地方
 
 ## 其它  
 

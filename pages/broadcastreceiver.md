@@ -9,4 +9,4 @@ permalink: /broadcastreceiver
 keywords: Android,BroadcastReceiver
 ---
 
-{% include broadcastreceiver.html %}
+{% include broadcastreceiver.html %}F
