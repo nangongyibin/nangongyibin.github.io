@@ -185,9 +185,16 @@ navs:
 
 
   -
-    href: /archives.html
-    label: Archives
+    href: /wok.html
+    label: 知识网
     target: _self
+
+
+
+#  -
+#    href: /archives.html
+#    label: Archives
+#    target: _self
 
   -
     href: /about.html
