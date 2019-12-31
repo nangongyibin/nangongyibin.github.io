@@ -252,7 +252,6 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 #
 #
-#
 # https://disqus.com
 disqus:
     username: nangongyibin
