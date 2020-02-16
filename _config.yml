@@ -171,6 +171,10 @@ navs:
       -
         subHref: /css.html
         subLabel: CSS
+        
+      -
+        subHref: /echarts.html
+        subLabel: Echarts
 
   -
     href: /c.html
