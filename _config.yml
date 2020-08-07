@@ -110,15 +110,6 @@ navs:
        -
         subHref: /netlib.html
         subLabel: 网络库
-
-       -
-        subHref: /kotlin.html
-        subLabel: Kotlin
-
-       -
-        subHref: /flutter.html
-        subLabel: Flutter
-
  
        -
         subHref: /third-party-service.html
@@ -222,6 +213,11 @@ classes:
     href: /kotlin.html
     name: Kotlin
     describe: Android 官方开发语言
+
+  -
+    href: /flutter.html
+    name: Flutter
+    describe: Flutter
     
   -
     href: /springboot.html
