@@ -148,6 +148,14 @@ navs:
       -
         subHref: /git.html
         subLabel: Git
+
+      -
+        subHref: /springboot.html
+        subLabel: SpringBoot
+        
+      -
+        subHref: /ssh.html
+        subLabel: SSH
           
   -
     href: /html.html
@@ -164,8 +172,20 @@ navs:
         subLabel: CSS
         
       -
+        subHref: /javascript.html
+        subLabel: JavaScript
+        
+      -
         subHref: /echarts.html
         subLabel: Echarts
+        
+      -
+        subHref: /vue.html
+        subLabel: Vue
+
+      -
+        subHref: /extjs.html
+        subLabel: Extjs
 
   -
     href: /c.html
@@ -218,11 +238,6 @@ classes:
     href: /flutter.html
     name: Flutter
     describe: Flutter
-    
-  -
-    href: /springboot.html
-    name: SpringBoot
-    describe: SpringBoot
     
 
 
